@@ -7,10 +7,6 @@
     padding: 24px;
 }
 
-.infoCardHeadline:hover {
-    background-color: white;
-}
-
 .infoCardCallActionContainer :global(.vtex-button) {
     color: white;
     background-color: gray;
@@ -19,7 +15,7 @@
 
 .infoCardCallActionContainer :global(.vtex-button):hover {
     color: gray;
-    background-color: blue;
+    background-color: white;
     border: transparent;
 }
 

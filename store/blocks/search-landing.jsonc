@@ -1,0 +1,24 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+            "image#landingbanner", 
+            "search-result-layout.customQuery"
+        ]        
+    },
+    "image#landingbanner": {
+        "props": {
+            "src": "https://drimjuguetes.vteximg.com.br/arquivos/ids/727308/slider-promo-mattel-uno.jpg",
+            "minWidth": "100%"
+        }
+    },
+    "search-result-layout.customQuery": {
+        "props":{
+            "skusFilter": "FIRST_AVAILABLE",
+            "orderByField": "OrderByReleaseDateDESC",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 8,
+            "queryField": "Blue Top Retro Camera",
+            "mapField": "ft"
+        }
+    }
+}
